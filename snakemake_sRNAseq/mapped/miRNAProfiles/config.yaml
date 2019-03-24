@@ -1,0 +1,18 @@
+THREADS: 32
+SAMPLE: "CS+_2_LIB18613_LDI16228"
+FEATURES:
+      name: "miRNAs"
+MAPPING:
+      mode: "both"
+      reference: "data/index/wheat_v1.0"
+sRNA_size: 34 # [20, 21, 22, 23, 24, 33, 34]
+COVERAGE:
+      bodyLength: 120
+      startLabel: "Start"
+      endLabel: "End"
+      upstream: 500
+      downstream: 500
+      flankName: "500bp"
+      binSize: 5
+      binName: "5bp"
+      sortRegions: "keep"

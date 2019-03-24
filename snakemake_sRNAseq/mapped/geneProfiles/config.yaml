@@ -1,0 +1,18 @@
+THREADS: 48
+SAMPLE: "CS+_2_LIB18613_LDI16228"
+FEATURES:
+      name: "genes"
+MAPPING:
+      mode: "both"
+      reference: "data/index/wheat_v1.0"
+sRNA_size: 34 # [20, 21, 22, 23, 24, 33, 34]
+COVERAGE:
+      bodyLength: 3500
+      startLabel: "TSS"
+      endLabel: "TTS"
+      upstream: 2000
+      downstream: 2000
+      flankName: "2kb"
+      binSize: 20
+      binName: "20bp"
+      sortRegions: "keep"
